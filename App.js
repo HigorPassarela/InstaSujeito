@@ -8,6 +8,8 @@ import {
   FlatList
 } from 'react-native';
 
+import Lista from './src/Lista'
+
 export default class App extends Component{
 
   constructor(props){
