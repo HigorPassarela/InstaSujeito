@@ -87,7 +87,10 @@ export default class App extends Component{
 
       <FlatList 
       showsHorizontalScrollIndicator={false}
+<<<<<<< HEAD
       keyExtractor={(item)=> item.id}
+=======
+>>>>>>> d3e4eaa19164ae3b295f12dc33855fc4a6bb70f9
       data={this.state.feed}
       renderItem={ ({item})=> <Lista data={item} />}
       />
